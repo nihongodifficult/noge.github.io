@@ -101,6 +101,50 @@ footer {
   margin-top: 8px;
   text-transform: uppercase;
 }
+/* ===== Global Navigation ===== */
+.global-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.nav-logo img {
+  height: 28px;
+}
+
+.nav-menu a {
+  margin-left: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  opacity: 0.6;
+}
+
+/* CONTACT button */
+.nav-contact {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background: #1a5cff;
+  color: #fff !important;
+  margin-left: 24px;
+}
+
 
 
 
