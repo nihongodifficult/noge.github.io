@@ -11,7 +11,7 @@ body {
 /* ===== layout ===== */
 .container {
   max-width: 1120px;
-  margin: 0 auto;
+
   padding: 0 24px;
 }
 
@@ -101,6 +101,7 @@ footer {
   margin-top: 8px;
   text-transform: uppercase;
 }
+
 
 
 
