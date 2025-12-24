@@ -83,3 +83,11 @@ footer {
   font-size: 14px;
   color: #777;
 }
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 24px;
+  color: #111;
+}
+
