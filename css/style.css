@@ -19,7 +19,7 @@ body {
 header {
   background: #ffffff; /* 白 */
   color: #111;
-  padding: 80px 0 80px;
+  padding: 64px 0 72px;
   border-bottom: 1px solid #eee; /* 薄い区切り線 */
 }
 
@@ -101,6 +101,7 @@ footer {
   margin-top: 8px;
   text-transform: uppercase;
 }
+
 
 
 
