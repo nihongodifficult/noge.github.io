@@ -11,7 +11,7 @@ body {
 /* ===== layout ===== */
 .container {
   max-width: 1120px;
-
+padding : auto;
   padding: 0 24px;
 }
 
@@ -86,7 +86,7 @@ footer {
   color: #777;
 }
 .logo-img {
-  height:   500px;        /* ロゴの高さ */
+  height:   150px;        /* ロゴの高さ */
   margin-bottom: 24px;
 }
 
@@ -101,6 +101,7 @@ footer {
   margin-top: 8px;
   text-transform: uppercase;
 }
+
 
 
 
