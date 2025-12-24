@@ -90,6 +90,22 @@ footer {
   margin-bottom: 24px;
 }
 
+.brand {
+  margin-bottom: 48px;
+}
+
+.brand-name {
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  color: #666;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.logo-img {
+  height: 28px;
+}
+
 
 
 
