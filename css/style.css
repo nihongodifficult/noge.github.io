@@ -159,7 +159,7 @@ footer {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .hero-inner {
@@ -183,6 +183,7 @@ footer {
   font-size: 18px;
   opacity: 0.9;
 }
+
 
 
 
