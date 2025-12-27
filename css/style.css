@@ -145,6 +145,32 @@ footer {
   margin-left: 24px;
 }
 
+.hero {
+  height: 70vh; /* 画面高さの70% */
+  background-image: url("img/hero.jpg"); /* 挿入したい写真 */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35); /* 文字を読みやすくする */
+}
+
+.hero-inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: #fff;
+}
+
+
 
 
 
