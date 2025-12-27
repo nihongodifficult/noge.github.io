@@ -145,19 +145,21 @@ footer {
   margin-left: 24px;
 }
 
+/* ===== Hero Section ===== */
 .hero {
-  height: 70vh; /* 画面高さの70% */
-  background-image: url("img/hero.jpg"); /* 挿入したい写真 */
+  height: 80vh;
+  background-image: url("../img/hero.jpg"); /* ← ここに写真 */
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
+/* 文字を読みやすくする暗幕 */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35); /* 文字を読みやすくする */
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .hero-inner {
@@ -166,9 +168,23 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 80px;
   color: #fff;
 }
+
+/* 見出し */
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* サブコピー */
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+
 
 
 
